@@ -150,7 +150,35 @@ CGRect에 전달하는 인자
 
 ## 3.7. Bronze Challenge: More Auto Layout Practice
 
-## 3.8. Silver Challenge: Adding a Gradient Layor
+constraints 모두 초기화하고 다시 작성해보기
+
+## 3.8. Silver Challenge: Adding a Gradient Layer
+
+배경에 그라디언트 추가해보기
+
+````swift
+//
+//  ViewController.swift
+//  WorldTrotter
+//
+//  Created by Changhyun Baek on 2020/05/12.
+//  Copyright © 2020 paikwiki. All rights reserved.
+//
+
+import UIKit
+
+class ViewController: UIViewController {
+
+    override func viewWillLayoutSubviews() {
+        let gradient = CAGradientLayer()
+
+        gradient.frame = view.bounds
+        gradient.colors = [UIColor.purple.cgColor, UIColor.blue.cgColor, UIColor.green.cgColor, UIColor.yellow.cgColor, UIColor.red.cgColor, UIColor.red.cgColor]
+        view.layer.insertSublayer(gradient, at: 0)
+    }
+
+}
+````
 
 ## 3.9 Gold Challenge: Spacing Out the Labels
 
