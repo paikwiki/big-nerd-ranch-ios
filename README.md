@@ -5,7 +5,7 @@ The Big Nerd Ranch Guide 시리즈 중, "[iOS Programming](https://play.google.c
 ## 정리 방법
 
 1. 책의 예제와 관련한 소스 코드는 `/codes/`에, 학습 내용을 요약한 노트는 `/notes/`에 각각 정리합니다.
-2. 커밋 메시지에는 접두어를 활용합니다: "codes:"와 "notes:"는 각각 예제 코드에 대한 커밋과 요약 노트에 대한 커밋을 의미합니다. 프로젝트의 경우에는 대괄호([])를 붙여 작성합니다(예: "[WorldTrotter])
+2. 커밋 메시지에는 접두어를 활용합니다: "codes:"와 "notes:"는 각각 예제 코드에 대한 커밋과 요약 노트에 대한 커밋을 의미합니다. 프로젝트의 경우에는 대괄호([])를 붙여 작성합니다(예: "[WorldTrotter]")
 3. 각 챕터의 학습을 마무리하면 [태그](https://github.com/paikwiki/big-nerd-ranch-ios/releases)를 작성합니다. 태그는 `ch{00}-done` 형태를 따릅니다.
 4. 학습한 내용은 아래의 표에 정리합니다. 프로젝트는 각 프로젝트에 해당하는 `/codes/` 안의 폴더를, 요약 노트는 `/notes/` 안의 요약 정리한 마크다운 파일을 링크합니다.
 
