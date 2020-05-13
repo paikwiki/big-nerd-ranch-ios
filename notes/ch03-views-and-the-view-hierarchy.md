@@ -24,7 +24,7 @@ UIWindow
 - 윈도우에 추가된 서브뷰 역시 다른 서브뷰를 가질 수 있음
 - 따라서 윈도우를 루트로 하는 뷰 오브젝트의 계층구조가 생성됨
 
-````txt
+```txt
 /* F.3.2 An example view hierarchy and the interface that it creates */
   ╭────────────╮
   │ UIWindow   │
@@ -56,7 +56,7 @@ UIWindow
       │ UIButton │ │ UIButton │ │ UIButton │ │ UIButton │ │ UIButton │
       ├──────────┤ ├──────────┤ ├──────────┤ ├──────────┤ ├──────────┤
       ╰──────────╯ ╰──────────╯ ╰──────────╯ ╰──────────╯ ╰──────────╯
-````
+```
 
 뷰의 계층 구조를 생성하고 나면 화면에 그려지는 과정은 두 단계로 나눌 수 있음
 
@@ -79,9 +79,9 @@ Xcode 실습
 - 뷰의 사이즈와, 슈퍼뷰에 연관된 위치를 지정함
 - 뷰의 크기는 그것의 frame으로 지정되기 때문에, 뷰는 항상 사각형임
 
-뷰콘트롤러(ViewController)
+뷰컨트롤러(ViewController)
 
-- 앱이 실행됐을 때 루트 레벨의 윈도우에 추가되는 뷰 콘트롤러
+- 앱이 실행됐을 때 루트 레벨의 윈도우에 추가되는 뷰 컨트롤러
 - `ViewController.swift`에 클래스를 정의함
 
 프레임워크(Framework)
@@ -91,7 +91,7 @@ Xcode 실습
 
 viewDidLoad() 메서드
 
-- 뷰 콘트롤러의 뷰가 메모리에 로드되면 호출하는 메서드
+- 뷰 컨트롤러의 뷰가 메모리에 로드되면 호출하는 메서드
 - 이 메서드를 이용해 뷰 계층 구조를 커스터마이징할 수 있음
 
 CGRect에 전달하는 인자
@@ -155,7 +155,7 @@ constraints 모두 초기화하고 다시 작성해보기
 
 배경에 그라디언트 추가해보기
 
-````swift
+```swift
 //
 //  ViewController.swift
 //  WorldTrotter
@@ -177,7 +177,7 @@ class ViewController: UIViewController {
     }
 
 }
-````
+```
 
 ## 3.9 Gold Challenge: Spacing Out the Labels
 
