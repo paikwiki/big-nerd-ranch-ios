@@ -41,7 +41,7 @@ UITabBarController
 
 - 코드와 자원들을 패키지화하고 다양한 애플리케이션에서 공유할 수 있게 해줌
 
-`viewWillAppear(\_:)`
+`viewWillAppear(_:)`
 
 - 뷰 컨트롤러의 뷰를 윈도우에 추가하기 전에 호출됨
 - `viewDidLoad()` 다음에 호출됨
@@ -54,6 +54,6 @@ UITabBarController
 - `init(nibName:bundle:)`: UIViewController를 위해 설계된 이니셜라이저. 스토리보드 사용없이 뷰 컨트롤러 인스턴스를 생성할 때 한 번 실행. 각각의 뷰 컨트롤러가 생성될 때 한번씩만 호출됨
 - `loadView()`:뷰 컨트롤러의 뷰를 코드로 생성할 때 오버라이딩해서 사용 할 수 있음.
 - `viewDidLoad()`: 인터페이스 파일 로딩을 통해 뷰를 설정할 때 오버라이딩해서 사용 할 수 있음. 뷰 컨트롤러의 뷰가 생성된 후에 호출됨
-- `viewWillAppear(\_:)`: 뷰 컨트롤러의 뷰가 화면에 등장하는 각각의 시점을 오버라이딩해서 사용 할 수 있음. `viewDidAppear(\_:)`도 뷰 컨트롤러가 화면이 등장할 때 매번 호출됨. `viewWillDisappear(\_:)`와 `viewDidDisappear(\_:)`도 화면이 사라질 때 매번 호출됨.
+- `viewWillAppear(_:)`: 뷰 컨트롤러의 뷰가 화면에 등장하는 각각의 시점을 오버라이딩해서 사용 할 수 있음. `viewDidAppear(_:)`도 뷰 컨트롤러가 화면이 등장할 때 매번 호출됨. `viewWillDisappear(_:)`와 `viewDidDisappear(_:)`도 화면이 사라질 때 매번 호출됨.
 
 레이지 로딩의 이점을 보존하기 위해 `init(nibName:bundle:)` 또는 `init(coder:)`에 뷰 컨트롤러의 뷰 속성에 접근하지 않아야 한다. 이니셜라이저에서 뷰를 요청하는건 뷰 컨트롤러가 자신의 뷰를 조기에 로드하게하는 원인이 될 수 있다.
