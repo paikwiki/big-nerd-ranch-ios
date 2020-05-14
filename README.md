@@ -20,7 +20,7 @@ The Big Nerd Ranch Guide 시리즈 중, "[iOS Programming](https://play.google.c
 | 2| The Swift Language | [Playground](./codes/ch02-playground) | [:memo:ch02](./notes/ch02-the-swift-language.md)| 2020.05.11 |
 | 3| Views and the View Hierarchy | [WorldTrotter](./codes/WorldTrotter) | [:memo:ch03](./notes/ch03-views-and-the-view-hierarchy.md) | 2020.05.12 |
 | 4| View Controllers | [WorldTrotter](./codes/WorldTrotter) | [:memo:ch04](./notes/ch04-view-controllers.md) | 2020.05.13 |
-| 5| Programmatic Views | | | |
+| 5| Programmatic Views | [WorldTrotter](./codes/WorldTrotter) | [:memo:ch05](./notes/ch05-programmatic-views.md) | 2020.05.14 |
 | 6| Text Input and Delegation | | | |
 | 7| Internationalization and Localization | | | |
 | 8| Debugging | | | |
