@@ -45,7 +45,8 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="70"/>
                                 <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="decimalPad"/>
                                 <connections>
-                                    <action selector="fahrenheitFieldEditingChanged:" destination="BYZ-38-t0r" eventType="editingChanged" id="Zbu-wf-A1k"/>
+                                    <action selector="fahrenheitFieldEditingChanged:" destination="BYZ-38-t0r" eventType="editingChanged" id="OS5-gt-5up"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="0JW-7u-Ynm"/>
                                 </connections>
                             </textField>
                         </subviews>
@@ -70,8 +71,8 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Convert" image="ConvertIcon" id="1CO-1e-Zfl"/>
                     <connections>
-                        <outlet property="celsiusLabel" destination="k60-6D-ukc" id="Tyf-r2-gjO"/>
-                        <outlet property="textField" destination="hX2-sg-CJC" id="j7n-Gx-TPg"/>
+                        <outlet property="celsiusLabel" destination="k60-6D-ukc" id="oW3-AT-zaj"/>
+                        <outlet property="textField" destination="hX2-sg-CJC" id="6d7-LP-BQm"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
