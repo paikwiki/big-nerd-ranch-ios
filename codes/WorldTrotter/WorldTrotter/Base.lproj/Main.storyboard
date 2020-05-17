@@ -15,26 +15,26 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="degrees Fahrenheit" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D93-ZW-XOH">
-                                <rect key="frame" x="39.666666666666657" y="145.33333333333334" width="296" height="43"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="degrees Fahrenheit" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D93-ZW-XOH">
+                                <rect key="frame" x="40" y="145.33333333333334" width="295.33333333333331" height="43"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                 <color key="textColor" red="0.88235294117647056" green="0.34509803921568627" blue="0.16078431372549018" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="is really" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ADA-CY-JVP">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="is really" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ADA-CY-JVP">
                                 <rect key="frame" x="130.66666666666666" y="196.33333333333334" width="114" height="43"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k60-6D-ukc">
-                                <rect key="frame" x="129" y="247.33333333333337" width="117" height="84"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k60-6D-ukc">
+                                <rect key="frame" x="129.33333333333334" y="247.33333333333334" width="116.33333333333334" height="83.666666666666657"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="70"/>
                                 <color key="textColor" red="0.88235294117647056" green="0.34509803921568627" blue="0.16078431372549018" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="degrees Celsius" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ib9-5i-HnZ">
-                                <rect key="frame" x="64.666666666666686" y="339.33333333333331" width="246" height="43"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="degrees Celsius" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ib9-5i-HnZ">
+                                <rect key="frame" x="64.666666666666671" y="339" width="245.66666666666663" height="43"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                 <color key="textColor" red="0.88235294117647056" green="0.34509803921568627" blue="0.16078431372549018" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -54,11 +54,15 @@
                         <gestureRecognizers/>
                         <constraints>
                             <constraint firstItem="ib9-5i-HnZ" firstAttribute="centerX" secondItem="D93-ZW-XOH" secondAttribute="centerX" id="3Jr-Tx-SXW"/>
+                            <constraint firstItem="ADA-CY-JVP" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="6ps-gN-Dwy"/>
                             <constraint firstItem="k60-6D-ukc" firstAttribute="top" secondItem="ADA-CY-JVP" secondAttribute="bottom" constant="8" id="Ocm-da-PHB"/>
+                            <constraint firstItem="D93-ZW-XOH" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="P56-oV-eL0"/>
                             <constraint firstItem="hX2-sg-CJC" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="8" id="RTr-jR-JSv"/>
                             <constraint firstItem="D93-ZW-XOH" firstAttribute="top" secondItem="hX2-sg-CJC" secondAttribute="bottom" constant="8" id="SyY-vQ-A0y"/>
+                            <constraint firstItem="ib9-5i-HnZ" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="TA1-DW-zcm"/>
                             <constraint firstItem="hX2-sg-CJC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="WSu-N2-3YO"/>
                             <constraint firstItem="ib9-5i-HnZ" firstAttribute="top" secondItem="k60-6D-ukc" secondAttribute="bottom" constant="8" id="Zli-gi-oiX"/>
+                            <constraint firstItem="k60-6D-ukc" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="agf-BP-lP5"/>
                             <constraint firstItem="k60-6D-ukc" firstAttribute="centerX" secondItem="D93-ZW-XOH" secondAttribute="centerX" id="bvl-km-CN9"/>
                             <constraint firstItem="ADA-CY-JVP" firstAttribute="top" secondItem="D93-ZW-XOH" secondAttribute="bottom" constant="8" id="jRs-qn-cVR"/>
                             <constraint firstItem="hX2-sg-CJC" firstAttribute="centerX" secondItem="D93-ZW-XOH" secondAttribute="centerX" id="tmX-9E-bqn"/>
