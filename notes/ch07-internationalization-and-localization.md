@@ -60,3 +60,12 @@ Localizable.strings 파일
 레이블의 줄수(Lines)를 0으로 하면 여러 줄로 출력할 수 있음
 
 ## 7.2. Localization
+
+문자열 표(a strings table)
+
+- 여러 문자열의 번역을 위해 문자열 표가 필요함
+- 앱에서 사용하는 모든 문자열과, 그에 관련된 번역을 key-value 쌍으로 담고 있는 문자열 표
+
+```swift
+let greeting = NSLocalizedString("Hello!", comment: "The greeting for the user")
+```
