@@ -22,7 +22,7 @@ The Big Nerd Ranch Guide 시리즈 중, "[iOS Programming](https://play.google.c
 | 4| View Controllers | [WorldTrotter](./codes/WorldTrotter) | [:memo:ch04](./notes/ch04-view-controllers.md) | 2020.05.13 |
 | 5| Programmatic Views | [WorldTrotter](./codes/WorldTrotter) | [:memo:ch05](./notes/ch05-programmatic-views.md) | 2020.05.14 |
 | 6| Text Input and Delegation | [WorldTrotter](./codes/WorldTrotter) | [:memo:ch06](./notes/ch06-text-input-and-delegation.md) | 2020.05.16 |
-| 7| Internationalization and Localization | [WorldTrotter](./codes/WorldTrotter) | [:memo:ch06](./notes/ch07-internationalization-and-localization.md)| 2020.05.18 |
+| 7| Internationalization and Localization | [WorldTrotter](./codes/WorldTrotter) | [:memo:ch07](./notes/ch07-internationalization-and-localization.md)| 2020.05.18 |
 | 8| Debugging | | | |
 | 9| UITableView and UITableViewController | | | |
 |10| Subclassing UITableViewCell | | | |
