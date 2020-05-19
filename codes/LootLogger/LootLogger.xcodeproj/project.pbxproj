@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		994004F024737013007C4713 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994004EF24737013007C4713 /* AppDelegate.swift */; };
 		994004F224737013007C4713 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994004F124737013007C4713 /* SceneDelegate.swift */; };
-		994004F424737013007C4713 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994004F324737013007C4713 /* ViewController.swift */; };
 		994004F724737013007C4713 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 994004F524737013007C4713 /* Main.storyboard */; };
 		994004F924737014007C4713 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 994004F824737014007C4713 /* Assets.xcassets */; };
 		994004FC24737014007C4713 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 994004FA24737014007C4713 /* LaunchScreen.storyboard */; };
 		9940050724737015007C4713 /* LootLoggerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9940050624737015007C4713 /* LootLoggerTests.swift */; };
 		9940051224737015007C4713 /* LootLoggerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9940051124737015007C4713 /* LootLoggerUITests.swift */; };
+		9940052024737F28007C4713 /* ItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9940051F24737F28007C4713 /* ItemsViewController.swift */; };
+		99400522247381D8007C4713 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99400521247381D8007C4713 /* Item.swift */; };
+		99400524247394F6007C4713 /* ItemStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99400523247394F6007C4713 /* ItemStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +40,6 @@
 		994004EC24737013007C4713 /* LootLogger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LootLogger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		994004EF24737013007C4713 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		994004F124737013007C4713 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		994004F324737013007C4713 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		994004F624737013007C4713 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		994004F824737014007C4713 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		994004FB24737014007C4713 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +50,9 @@
 		9940050D24737015007C4713 /* LootLoggerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LootLoggerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9940051124737015007C4713 /* LootLoggerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LootLoggerUITests.swift; sourceTree = "<group>"; };
 		9940051324737015007C4713 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9940051F24737F28007C4713 /* ItemsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsViewController.swift; sourceTree = "<group>"; };
+		99400521247381D8007C4713 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		99400523247394F6007C4713 /* ItemStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,12 +104,14 @@
 			isa = PBXGroup;
 			children = (
 				994004EF24737013007C4713 /* AppDelegate.swift */,
+				99400521247381D8007C4713 /* Item.swift */,
+				99400523247394F6007C4713 /* ItemStore.swift */,
 				994004F124737013007C4713 /* SceneDelegate.swift */,
-				994004F324737013007C4713 /* ViewController.swift */,
 				994004F524737013007C4713 /* Main.storyboard */,
 				994004F824737014007C4713 /* Assets.xcassets */,
 				994004FA24737014007C4713 /* LaunchScreen.storyboard */,
 				994004FD24737014007C4713 /* Info.plist */,
+				9940051F24737F28007C4713 /* ItemsViewController.swift */,
 			);
 			path = LootLogger;
 			sourceTree = "<group>";
@@ -259,8 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				994004F424737013007C4713 /* ViewController.swift in Sources */,
+				99400522247381D8007C4713 /* Item.swift in Sources */,
+				9940052024737F28007C4713 /* ItemsViewController.swift in Sources */,
 				994004F024737013007C4713 /* AppDelegate.swift in Sources */,
+				99400524247394F6007C4713 /* ItemStore.swift in Sources */,
 				994004F224737013007C4713 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
