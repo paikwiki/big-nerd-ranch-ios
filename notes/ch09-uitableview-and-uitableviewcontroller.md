@@ -119,7 +119,7 @@ ItemStore라는 또다른 객체를 만들어서 Item 인스턴스를 담고있�
 // This is OK
 let newItem = itemStore.createItem()
 
-// This is alse OK; the result is not assigned to a variable
+// This is also OK; the result is not assigned to a variable
 itemStore.createItem()
 ```
 
