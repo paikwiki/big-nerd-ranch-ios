@@ -16,16 +16,16 @@ The Big Nerd Ranch Guide 시리즈 중, "[iOS Programming](https://play.google.c
 <!-- prettier-ignore -->
 | Ch. | Title | Project | Note | Date |
 |----:|-------|---------|------|------|
-| 1| A Simple iOS Application | [Quiz](./codes/Quiz/) | [:memo:ch01](./notes/ch01-a-simple-ios-application.md) | 2020.05.07 |
-| 2| The Swift Language | [Playground](./codes/ch02-playground) | [:memo:ch02](./notes/ch02-the-swift-language.md)| 2020.05.11 |
-| 3| Views and the View Hierarchy | [WorldTrotter](./codes/WorldTrotter) | [:memo:ch03](./notes/ch03-views-and-the-view-hierarchy.md) | 2020.05.12 |
-| 4| View Controllers | [WorldTrotter](./codes/WorldTrotter) | [:memo:ch04](./notes/ch04-view-controllers.md) | 2020.05.13 |
-| 5| Programmatic Views | [WorldTrotter](./codes/WorldTrotter) | [:memo:ch05](./notes/ch05-programmatic-views.md) | 2020.05.14 |
-| 6| Text Input and Delegation | [WorldTrotter](./codes/WorldTrotter) | [:memo:ch06](./notes/ch06-text-input-and-delegation.md) | 2020.05.16 |
-| 7| Internationalization and Localization | [WorldTrotter](./codes/WorldTrotter) | [:memo:ch07](./notes/ch07-internationalization-and-localization.md)| 2020.05.18 |
-| 8| Debugging | [Buggy](./codes/Buggy) | [:memo:ch08](./notes/ch08-debugging.md) | 2020.05.18 |
-| 9| UITableView and UITableViewController | [LootLoger](./codes/LootLogger) | [:memo:ch09](./notes/ch09-uitableview-and-uitableviewcontroller.md) | 2020.05.19 |
-|10| Subclassing UITableViewCell | [LootLoger](./codes/LootLogger) | [:memo:ch10](./notes/ch10-subclassing-uitableviewcell.md) | 2020.05.20 |
+| 1| A Simple iOS Application | [Quiz](./codes/Quiz/) | [:memo:Chapter 1](./notes/ch01-a-simple-ios-application.md) | 2020.05.07. |
+| 2| The Swift Language | [Playground](./codes/ch02-playground) | [:memo:Chapter 2](./notes/ch02-the-swift-language.md)| 2020.05.11. |
+| 3| Views and the View Hierarchy | [WorldTrotter](./codes/WorldTrotter) | [:memo:Chapter 3](./notes/ch03-views-and-the-view-hierarchy.md) | 2020.05.12. |
+| 4| View Controllers | [WorldTrotter](./codes/WorldTrotter) | [:memo:Chapter 4](./notes/ch04-view-controllers.md) | 2020.05.13. |
+| 5| Programmatic Views | [WorldTrotter](./codes/WorldTrotter) | [:memo:Chapter 5](./notes/ch05-programmatic-views.md) | 2020.05.14. |
+| 6| Text Input and Delegation | [WorldTrotter](./codes/WorldTrotter) | [:memo:Chapter 6](./notes/ch06-text-input-and-delegation.md) | 2020.05.16. |
+| 7| Internationalization and Localization | [WorldTrotter](./codes/WorldTrotter) | [:memo:Chapter 7](./notes/ch07-internationalization-and-localization.md)| 2020.05.18. |
+| 8| Debugging | [Buggy](./codes/Buggy) | [:memo:Chapter 8](./notes/ch08-debugging.md) | 2020.05.18. |
+| 9| UITableView and UITableViewController | [LootLoger](./codes/LootLogger) | [:memo:Chapter 9](./notes/ch09-uitableview-and-uitableviewcontroller.md) | 2020.05.19. |
+|10| Subclassing UITableViewCell | [LootLoger](./codes/LootLogger) | [:memo:Chapter 10](./notes/ch10-subclassing-uitableviewcell.md) | 2020.05.20. |
 |11| Stack Views | | | |
 |12| Navigation Controllers | | | |
 |13| Saving, Loading, and Scene States | | | |
