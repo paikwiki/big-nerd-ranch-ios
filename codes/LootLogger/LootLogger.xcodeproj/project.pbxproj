@@ -17,6 +17,7 @@
 		9940052024737F28007C4713 /* ItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9940051F24737F28007C4713 /* ItemsViewController.swift */; };
 		99400522247381D8007C4713 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99400521247381D8007C4713 /* Item.swift */; };
 		99400524247394F6007C4713 /* ItemStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99400523247394F6007C4713 /* ItemStore.swift */; };
+		994F20962474B9E1009A3E63 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994F20952474B9E1009A3E63 /* ItemCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		9940051F24737F28007C4713 /* ItemsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsViewController.swift; sourceTree = "<group>"; };
 		99400521247381D8007C4713 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		99400523247394F6007C4713 /* ItemStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemStore.swift; sourceTree = "<group>"; };
+		994F20952474B9E1009A3E63 /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				994004FA24737014007C4713 /* LaunchScreen.storyboard */,
 				994004FD24737014007C4713 /* Info.plist */,
 				9940051F24737F28007C4713 /* ItemsViewController.swift */,
+				994F20952474B9E1009A3E63 /* ItemCell.swift */,
 			);
 			path = LootLogger;
 			sourceTree = "<group>";
@@ -267,6 +270,7 @@
 			files = (
 				99400522247381D8007C4713 /* Item.swift in Sources */,
 				9940052024737F28007C4713 /* ItemsViewController.swift in Sources */,
+				994F20962474B9E1009A3E63 /* ItemCell.swift in Sources */,
 				994004F024737013007C4713 /* AppDelegate.swift in Sources */,
 				99400524247394F6007C4713 /* ItemStore.swift in Sources */,
 				994004F224737013007C4713 /* SceneDelegate.swift in Sources */,
