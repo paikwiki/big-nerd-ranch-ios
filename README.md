@@ -24,8 +24,8 @@ The Big Nerd Ranch Guide 시리즈 중, "[iOS Programming](https://play.google.c
 | 6| Text Input and Delegation | [WorldTrotter](./codes/WorldTrotter) | [:memo:ch06](./notes/ch06-text-input-and-delegation.md) | 2020.05.16 |
 | 7| Internationalization and Localization | [WorldTrotter](./codes/WorldTrotter) | [:memo:ch07](./notes/ch07-internationalization-and-localization.md)| 2020.05.18 |
 | 8| Debugging | [Buggy](./codes/Buggy) | [:memo:ch08](./notes/ch08-debugging.md) | 2020.05.18 |
-| 9| UITableView and UITableViewController | [LootLoger](./codes/LootLogger)| [:memo:ch09](./notes/ch09-uitableview-and-uitableviewcontroller.md) | 2020.05.19 |
-|10| Subclassing UITableViewCell | | | |
+| 9| UITableView and UITableViewController | [LootLoger](./codes/LootLogger) | [:memo:ch09](./notes/ch09-uitableview-and-uitableviewcontroller.md) | 2020.05.19 |
+|10| Subclassing UITableViewCell | [LootLoger](./codes/LootLogger) | [:memo:ch10](./notes/ch10-subclassing-uitableviewcell.md) | 2020.05.20 |
 |11| Stack Views | | | |
 |12| Navigation Controllers | | | |
 |13| Saving, Loading, and Scene States | | | |
