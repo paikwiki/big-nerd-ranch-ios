@@ -26,7 +26,7 @@ The Big Nerd Ranch Guide 시리즈 중, "[iOS Programming](https://play.google.c
 | 8| Debugging | [Buggy](./codes/Buggy) | [:memo:Chapter 8](./notes/ch08-debugging.md) | 2020.05.18. |
 | 9| UITableView and UITableViewController | [LootLoger](./codes/LootLogger) | [:memo:Chapter 9](./notes/ch09-uitableview-and-uitableviewcontroller.md) | 2020.05.19. |
 |10| Subclassing UITableViewCell | [LootLoger](./codes/LootLogger) | [:memo:Chapter 10](./notes/ch10-subclassing-uitableviewcell.md) | 2020.05.20. |
-|11| Stack Views | | | |
+|11| Stack Views | [LootLoger](./codes/LootLogger) | [:memo:Chapter 11](./notes/ch11-stack-views.md) | 2020.05.21 |
 |12| Navigation Controllers | | | |
 |13| Saving, Loading, and Scene States | | | |
 |14| Presenting View Controllers | | | |
