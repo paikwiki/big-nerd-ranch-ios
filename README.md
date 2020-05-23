@@ -28,7 +28,7 @@ The Big Nerd Ranch Guide 시리즈 중, "[iOS Programming](https://play.google.c
 |10| Subclassing UITableViewCell | [LootLogger](./codes/LootLogger) | [:memo:Chapter 10](./notes/ch10-subclassing-uitableviewcell.md) | 2020.05.20. |
 |11| Stack Views | [LootLogger](./codes/LootLogger) | [:memo:Chapter 11](./notes/ch11-stack-views.md) | 2020.05.21. |
 |12| Navigation Controllers | [LootLogger](./codes/LootLogger) | [:memo:Chapter 12](./notes/ch12-navigation-controllers.md) | 2020.05.22. |
-|13| Saving, Loading, and Scene States | | | |
+|13| Saving, Loading, and Scene States | [LootLogger](./codes/LootLogger) | [:memo:Chapter 13](./notes/ch13-saving-loading-and-scene-states.md)| 2020.05.23. |
 |14| Presenting View Controllers | | | |
 |15| Camera | | | |
 |16| Adaptive Interfaces | | | |
