@@ -86,7 +86,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="xv5-A2-Etd">
-                                <rect key="frame" x="8" y="96" width="398" height="758"/>
+                                <rect key="frame" x="8" y="96" width="398" height="709"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="6Oc-wR-2x6">
                                         <rect key="frame" x="0.0" y="0.0" width="398" height="34"/>
@@ -146,7 +146,7 @@
                                         </subviews>
                                     </stackView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="249" text="Date Created" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2hx-nJ-jWI">
-                                        <rect key="frame" x="0.0" y="126" width="398" height="632"/>
+                                        <rect key="frame" x="0.0" y="126" width="398" height="583"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -157,14 +157,27 @@
                                     <constraint firstItem="GxV-hw-GgP" firstAttribute="leading" secondItem="RZg-JD-ttm" secondAttribute="leading" id="WwQ-Wt-Axr"/>
                                 </constraints>
                             </stackView>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="owp-PO-a0T">
+                                <rect key="frame" x="0.0" y="813" width="414" height="49"/>
+                                <items>
+                                    <barButtonItem systemItem="camera" id="KXf-oh-lIj">
+                                        <connections>
+                                            <action selector="choosePhotoSource:" destination="WZx-zB-PrE" id="jq7-E0-xMk"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <gestureRecognizers/>
                         <constraints>
                             <constraint firstItem="QSJ-Ek-gJG" firstAttribute="trailing" secondItem="xv5-A2-Etd" secondAttribute="trailing" constant="8" id="1wR-0M-uOj"/>
+                            <constraint firstItem="owp-PO-a0T" firstAttribute="top" secondItem="xv5-A2-Etd" secondAttribute="bottom" constant="8" id="22N-fs-b3m"/>
+                            <constraint firstAttribute="trailing" secondItem="owp-PO-a0T" secondAttribute="trailing" id="5Cj-BV-p9n"/>
                             <constraint firstItem="xv5-A2-Etd" firstAttribute="top" secondItem="QSJ-Ek-gJG" secondAttribute="top" constant="8" id="Ro8-lN-PrJ"/>
+                            <constraint firstItem="owp-PO-a0T" firstAttribute="bottom" secondItem="QSJ-Ek-gJG" secondAttribute="bottom" id="cCR-Jf-wSd"/>
                             <constraint firstItem="xv5-A2-Etd" firstAttribute="leading" secondItem="QSJ-Ek-gJG" secondAttribute="leading" constant="8" id="dbf-kO-lXs"/>
-                            <constraint firstItem="QSJ-Ek-gJG" firstAttribute="bottom" secondItem="xv5-A2-Etd" secondAttribute="bottom" constant="8" id="gTp-d6-xjT"/>
+                            <constraint firstItem="owp-PO-a0T" firstAttribute="leading" secondItem="RfR-ZL-PjR" secondAttribute="leading" id="rmO-GZ-elj"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="QSJ-Ek-gJG"/>
                         <connections>
