@@ -30,7 +30,7 @@ The Big Nerd Ranch Guide 시리즈 중, "[iOS Programming](https://play.google.c
 |12| Navigation Controllers | [LootLogger](./codes/LootLogger) | [:memo:Chapter 12](./notes/ch12-navigation-controllers.md) | 2020.05.22. |
 |13| Saving, Loading, and Scene States | [LootLogger](./codes/LootLogger) | [:memo:Chapter 13](./notes/ch13-saving-loading-and-scene-states.md)| 2020.05.23. |
 |14| Presenting View Controllers | [LootLogger](./codes/LootLogger) | [:memo:Chapter 14](./notes/ch14-presenting-view-controllers.md) | 2020.05.24. |
-|15| Camera | | | |
+|15| Camera | [LootLogger](./codes/LootLogger) | [:memo:Chapter 14](./notes/ch14-presenting-view-controllers.md) | 2020.05.25. |
 |16| Adaptive Interfaces | | | |
 |17| Extensions and Container View Controllers | | | |
 |18| Custom Controls | | | |
