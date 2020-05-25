@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		991CD0D1247BD867003E142C /* ImageStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991CD0D0247BD867003E142C /* ImageStore.swift */; };
 		994004F024737013007C4713 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994004EF24737013007C4713 /* AppDelegate.swift */; };
 		994004F224737013007C4713 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994004F124737013007C4713 /* SceneDelegate.swift */; };
 		994004F724737013007C4713 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 994004F524737013007C4713 /* Main.storyboard */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		991CD0D0247BD867003E142C /* ImageStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageStore.swift; sourceTree = "<group>"; };
 		994004EC24737013007C4713 /* LootLogger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LootLogger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		994004EF24737013007C4713 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		994004F124737013007C4713 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -113,6 +115,7 @@
 				994004F124737013007C4713 /* SceneDelegate.swift */,
 				994004F524737013007C4713 /* Main.storyboard */,
 				99EDB08824761E9F007ED59B /* DetailViewController.swift */,
+				991CD0D0247BD867003E142C /* ImageStore.swift */,
 				994004F824737014007C4713 /* Assets.xcassets */,
 				994004FA24737014007C4713 /* LaunchScreen.storyboard */,
 				994004FD24737014007C4713 /* Info.plist */,
@@ -274,6 +277,7 @@
 				99400522247381D8007C4713 /* Item.swift in Sources */,
 				9940052024737F28007C4713 /* ItemsViewController.swift in Sources */,
 				994F20962474B9E1009A3E63 /* ItemCell.swift in Sources */,
+				991CD0D1247BD867003E142C /* ImageStore.swift in Sources */,
 				994004F024737013007C4713 /* AppDelegate.swift in Sources */,
 				99400524247394F6007C4713 /* ItemStore.swift in Sources */,
 				994004F224737013007C4713 /* SceneDelegate.swift in Sources */,
