@@ -1,24 +1,144 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Mood Selection View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="MoodSelectionViewController" customModule="Mandala" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZR6-8v-kc8">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <connections>
+                                    <segue destination="SZQ-8z-FaC" kind="embed" id="6Qp-mM-Wt9"/>
+                                </connections>
+                            </containerView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="poN-mn-wZk">
+                                <rect key="frame" x="103.5" y="728" width="207" height="48"/>
+                                <color key="backgroundColor" name="happTyrquoise"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="F3A-aA-a0o"/>
+                                </constraints>
+                                <state key="normal" title="Add Mood">
+                                    <color key="titleColor" red="0.96078431369999995" green="0.95686274510000002" blue="0.94509803920000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="addMoodTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sSi-Zp-t7A"/>
+                                </connections>
+                            </button>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BzB-fS-ggq">
+                                <rect key="frame" x="0.0" y="796" width="414" height="100"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="ZB1-x9-0Da">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="100"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="tFu-Oi-Dk5">
+                                            <rect key="frame" x="8" y="8" width="398" height="50"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="85r-El-BAP">
+                                                    <rect key="frame" x="0.0" y="0.0" width="398" height="50"/>
+                                                    <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </view>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="50" id="cRN-Cj-G8f"/>
+                                            </constraints>
+                                        </stackView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="tFu-Oi-Dk5" firstAttribute="trailing" secondItem="ZB1-x9-0Da" secondAttribute="trailingMargin" id="1wd-Az-qYH"/>
+                                        <constraint firstItem="tFu-Oi-Dk5" firstAttribute="leading" secondItem="ZB1-x9-0Da" secondAttribute="leadingMargin" id="bq0-nG-I1L"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="tFu-Oi-Dk5" secondAttribute="bottom" id="jes-CV-6GZ"/>
+                                        <constraint firstItem="tFu-Oi-Dk5" firstAttribute="top" secondItem="ZB1-x9-0Da" secondAttribute="top" constant="8" id="vel-R7-7jo"/>
+                                    </constraints>
+                                </view>
+                                <blurEffect style="regular"/>
+                            </visualEffectView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="BzB-fS-ggq" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="4TJ-vx-Svt"/>
+                            <constraint firstAttribute="trailing" secondItem="ZR6-8v-kc8" secondAttribute="trailing" id="5iu-Uk-pvw"/>
+                            <constraint firstItem="BzB-fS-ggq" firstAttribute="top" secondItem="poN-mn-wZk" secondAttribute="bottom" constant="20" id="7Ny-dv-wfE"/>
+                            <constraint firstItem="ZR6-8v-kc8" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="BKt-Q8-Bzt"/>
+                            <constraint firstAttribute="bottom" secondItem="BzB-fS-ggq" secondAttribute="bottom" id="DJU-Ue-S07"/>
+                            <constraint firstAttribute="trailing" secondItem="BzB-fS-ggq" secondAttribute="trailing" id="agW-xO-ayE"/>
+                            <constraint firstItem="BzB-fS-ggq" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="bUd-ll-O2m"/>
+                            <constraint firstItem="ZR6-8v-kc8" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="k1h-b0-Sd2"/>
+                            <constraint firstAttribute="trailing" secondItem="BzB-fS-ggq" secondAttribute="trailing" id="oi1-Ar-Aik"/>
+                            <constraint firstItem="poN-mn-wZk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="p1Y-gh-9Vs"/>
+                            <constraint firstAttribute="bottom" secondItem="ZR6-8v-kc8" secondAttribute="bottom" id="pzx-yh-ebY"/>
+                            <constraint firstItem="poN-mn-wZk" firstAttribute="width" secondItem="6Tk-OE-BBY" secondAttribute="width" multiplier="0.5" id="ziG-TW-gLS"/>
+                            <constraint firstAttribute="bottom" secondItem="BzB-fS-ggq" secondAttribute="bottom" id="zjr-b7-Jv4"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="addMoodButton" destination="poN-mn-wZk" id="cLK-PY-tfZ"/>
+                        <outlet property="stackView" destination="tFu-Oi-Dk5" id="cal-at-rQL"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="519" y="138"/>
+        </scene>
+        <!--Mood List View Controller-->
+        <scene sceneID="Jjm-qw-op9">
+            <objects>
+                <tableViewController id="SZQ-8z-FaC" customClass="MoodListViewController" customModule="Mandala" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="FAL-Wt-G6d">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="UITableViewCell" textLabel="LdU-KO-HKF" detailTextLabel="cm1-3G-d6A" style="IBUITableViewCellStyleSubtitle" id="H3I-S3-XO5">
+                                <rect key="frame" x="0.0" y="28" width="414" height="55.5"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="H3I-S3-XO5" id="1V4-Xe-UjJ">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="55.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="LdU-KO-HKF">
+                                            <rect key="frame" x="20" y="10" width="33.5" height="20.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Subtitle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="cm1-3G-d6A">
+                                            <rect key="frame" x="20" y="31.5" width="44" height="14.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="SZQ-8z-FaC" id="KzT-jP-vFj"/>
+                            <outlet property="delegate" destination="SZQ-8z-FaC" id="fGr-Eq-9z8"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="914-je-chH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1290" y="138"/>
         </scene>
     </scenes>
+    <resources>
+        <namedColor name="happTyrquoise">
+            <color red="0.074509803921568626" green="0.82745098039215681" blue="0.67450980392156867" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
 </document>
