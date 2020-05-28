@@ -34,7 +34,7 @@ The Big Nerd Ranch Guide 시리즈 중, "[iOS Programming](https://play.google.c
 |16| Adaptive Interfaces | [LootLogger](./codes/LootLogger) | [:memo:Chapter 16](./notes/ch16-adaptive-interfaces.md) | 2020.05.26. |
 |17| Extensions and Container View Controllers | [Mandala](./codes/Mandala) | [:memo:Chapter 17](./notes/ch17-extensions-and-container-view-controllers.md) | 2020.05.27. |
 |18| Custom Controls | [Mandala](./codes/Mandala) | [:memo:Chapter 18](./notes/ch18-custom-controls.md) | 2020.05.28. |
-|19| Controlling Animations | | | |
+|19| Controlling Animations | [Mandala](./codes/Mandala) | [:memo:Chapter 19](./notes/ch19-controlling-animations.md) | 2020.05.28. |
 |20| Web Services | | | |
 |21| Collection Views | | | |
 |22| Core Data | | | |
