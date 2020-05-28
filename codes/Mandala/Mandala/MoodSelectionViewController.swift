@@ -39,8 +39,7 @@ class MoodSelectionViewController: UIViewController {
     var moodsConfigurable: MoodsConfigurable!
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-//        TODO: switch segue.identifier! {
-        switch "embedContainerViewController" {
+        switch segue.identifier! {
         case "embedContainerViewController":
             guard let moodsConfigurable = segue.destination as? MoodsConfigurable else {
                 preconditionFailure(
