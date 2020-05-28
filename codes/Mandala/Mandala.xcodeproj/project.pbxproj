@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9943B7A4247F57F40047C7CF /* ImageSeletor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9943B7A3247F57F40047C7CF /* ImageSeletor.swift */; };
 		99C53E6F247E4945008D2381 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C53E6E247E4945008D2381 /* AppDelegate.swift */; };
 		99C53E71247E4945008D2381 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C53E70247E4945008D2381 /* SceneDelegate.swift */; };
 		99C53E73247E4945008D2381 /* MoodSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C53E72247E4945008D2381 /* MoodSelectionViewController.swift */; };
@@ -41,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9943B7A3247F57F40047C7CF /* ImageSeletor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSeletor.swift; sourceTree = "<group>"; };
 		99C53E6B247E4945008D2381 /* Mandala.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mandala.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99C53E6E247E4945008D2381 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		99C53E70247E4945008D2381 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 				99C53EA4247E5522008D2381 /* UIImage+Mandala.swift */,
 				99C53EA2247E530F008D2381 /* UIColor+Mandala.swift */,
 				99C53E9E247E4D47008D2381 /* Mood.swift */,
+				9943B7A3247F57F40047C7CF /* ImageSeletor.swift */,
 				99C53EA0247E4DAD008D2381 /* MoodEntry.swift */,
 				99C53EA6247E8821008D2381 /* MoodListViewController.swift */,
 				99C53EA8247E8EAD008D2381 /* MoodsConfigurable.swift */,
@@ -285,6 +288,7 @@
 				99C53E6F247E4945008D2381 /* AppDelegate.swift in Sources */,
 				99C53EA3247E530F008D2381 /* UIColor+Mandala.swift in Sources */,
 				99C53EA5247E5522008D2381 /* UIImage+Mandala.swift in Sources */,
+				9943B7A4247F57F40047C7CF /* ImageSeletor.swift in Sources */,
 				99C53E71247E4945008D2381 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

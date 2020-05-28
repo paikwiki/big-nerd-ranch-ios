@@ -19,11 +19,11 @@
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZR6-8v-kc8">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <connections>
-                                    <segue destination="SZQ-8z-FaC" kind="embed" id="6Qp-mM-Wt9"/>
+                                    <segue destination="SZQ-8z-FaC" kind="embed" identifier="embedContainerViewController" id="6Qp-mM-Wt9"/>
                                 </connections>
                             </containerView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="poN-mn-wZk">
-                                <rect key="frame" x="103.5" y="728" width="207" height="48"/>
+                                <rect key="frame" x="103.5" y="720" width="207" height="48"/>
                                 <color key="backgroundColor" name="happTyrquoise"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="48" id="F3A-aA-a0o"/>
@@ -36,29 +36,27 @@
                                 </connections>
                             </button>
                             <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BzB-fS-ggq">
-                                <rect key="frame" x="0.0" y="796" width="414" height="100"/>
+                                <rect key="frame" x="0.0" y="788" width="414" height="108"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="ZB1-x9-0Da">
-                                    <rect key="frame" x="0.0" y="0.0" width="414" height="100"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="108"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
-                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="tFu-Oi-Dk5">
-                                            <rect key="frame" x="8" y="8" width="398" height="50"/>
-                                            <subviews>
-                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="85r-El-BAP">
-                                                    <rect key="frame" x="0.0" y="0.0" width="398" height="50"/>
-                                                    <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                </view>
-                                            </subviews>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XVd-hA-Vc3" customClass="ImageSelector" customModule="Mandala" customModuleProvider="target">
+                                            <rect key="frame" x="8" y="16" width="398" height="50"/>
+                                            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                             <constraints>
-                                                <constraint firstAttribute="height" constant="50" id="cRN-Cj-G8f"/>
+                                                <constraint firstAttribute="height" constant="50" id="BIC-AS-lIM"/>
                                             </constraints>
-                                        </stackView>
+                                            <connections>
+                                                <action selector="moodSelectionChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="y4l-1G-yXF"/>
+                                            </connections>
+                                        </view>
                                     </subviews>
                                     <constraints>
-                                        <constraint firstItem="tFu-Oi-Dk5" firstAttribute="trailing" secondItem="ZB1-x9-0Da" secondAttribute="trailingMargin" id="1wd-Az-qYH"/>
-                                        <constraint firstItem="tFu-Oi-Dk5" firstAttribute="leading" secondItem="ZB1-x9-0Da" secondAttribute="leadingMargin" id="bq0-nG-I1L"/>
-                                        <constraint firstAttribute="bottomMargin" secondItem="tFu-Oi-Dk5" secondAttribute="bottom" id="jes-CV-6GZ"/>
-                                        <constraint firstItem="tFu-Oi-Dk5" firstAttribute="top" secondItem="ZB1-x9-0Da" secondAttribute="top" constant="8" id="vel-R7-7jo"/>
+                                        <constraint firstItem="XVd-hA-Vc3" firstAttribute="top" secondItem="ZB1-x9-0Da" secondAttribute="topMargin" constant="8" id="6ob-dp-tKF"/>
+                                        <constraint firstItem="XVd-hA-Vc3" firstAttribute="leading" secondItem="ZB1-x9-0Da" secondAttribute="leadingMargin" id="eTr-je-EGj"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="XVd-hA-Vc3" secondAttribute="bottom" id="twi-xV-Pym"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="XVd-hA-Vc3" secondAttribute="trailing" id="yFT-cd-HO3"/>
                                     </constraints>
                                 </view>
                                 <blurEffect style="regular"/>
@@ -84,7 +82,7 @@
                     </view>
                     <connections>
                         <outlet property="addMoodButton" destination="poN-mn-wZk" id="cLK-PY-tfZ"/>
-                        <outlet property="stackView" destination="tFu-Oi-Dk5" id="cal-at-rQL"/>
+                        <outlet property="moodSelector" destination="XVd-hA-Vc3" id="d8d-Um-UPJ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
