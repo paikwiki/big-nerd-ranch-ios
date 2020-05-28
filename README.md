@@ -33,7 +33,7 @@ The Big Nerd Ranch Guide 시리즈 중, "[iOS Programming](https://play.google.c
 |15| Camera | [LootLogger](./codes/LootLogger) | [:memo:Chapter 15](./notes/ch14-presenting-view-controllers.md) | 2020.05.25. |
 |16| Adaptive Interfaces | [LootLogger](./codes/LootLogger) | [:memo:Chapter 16](./notes/ch16-adaptive-interfaces.md) | 2020.05.26. |
 |17| Extensions and Container View Controllers | [Mandala](./codes/Mandala) | [:memo:Chapter 17](./notes/ch17-extensions-and-container-view-controllers.md) | 2020.05.27. |
-|18| Custom Controls | | | |
+|18| Custom Controls | [Mandala](./codes/Mandala) | [:memo:Chapter 18](./notes/ch18-custom-controls.md) | 2020.05.28. |
 |19| Controlling Animations | | | |
 |20| Web Services | | | |
 |21| Collection Views | | | |
