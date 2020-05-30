@@ -36,7 +36,7 @@ The Big Nerd Ranch Guide 시리즈 중, "[iOS Programming](https://play.google.c
 |18| Custom Controls | [Mandala](./codes/Mandala) | [:memo:Chapter 18](./notes/ch18-custom-controls.md) | 2020.05.28. |
 |19| Controlling Animations | [Mandala](./codes/Mandala) | [:memo:Chapter 19](./notes/ch19-controlling-animations.md) | 2020.05.28. |
 |20| Web Services | [Photorama](./codes/Photorama) | [:memo:Chapter 20](./notes/ch20-web-services.md) | 2020.05.29. |
-|21| Collection Views | | | |
+|21| Collection Views | [Photorama](./codes/Photorama) | [:memo:Chapter 21](./notes/ch21-collection-views.md) | 2020.05.30. |
 |22| Core Data | | | |
 |23| Core Data Relationships | | | |
 |24| Accessibility | | | |
