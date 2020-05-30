@@ -1,5 +1,5 @@
 //
-//  Photo.swift
+//  FlickrPhoto.swift
 //  Photorama
 //
 //  Created by Changhyun Baek on 2020/05/29.
