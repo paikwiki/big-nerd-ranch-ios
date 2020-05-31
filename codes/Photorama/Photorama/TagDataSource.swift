@@ -23,6 +23,9 @@ class TagDataSource: NSObject, UITableViewDataSource {
         let tag = tags[indexPath.row]
         cell.textLabel?.text = tag.name
         
+        cell.accessibilityHint = "Toggles selection"
+        cell.accessibilityTraits = [.button]
+        
         return cell
     }
 }
