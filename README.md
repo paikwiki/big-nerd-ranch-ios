@@ -2,6 +2,8 @@
 
 The Big Nerd Ranch Guide 시리즈 중, "[iOS Programming](https://play.google.com/store/books/details/Christian_Keur_iOS_Programming?id=yjTfDwAAQBAJ)"을 학습하기 위해 2020년 5월 4일에 생성한 저장소입니다.
 
+5월 4일(월)에 학습을 시작하여 31일(일)에 마지막 챕터의 학습을 마쳤습니다.
+
 ## 정리 방법
 
 1. 책의 예제와 관련한 소스 코드는 `/codes/`에, 학습 내용을 요약한 노트는 `/notes/`에 각각 정리합니다.
@@ -40,7 +42,7 @@ The Big Nerd Ranch Guide 시리즈 중, "[iOS Programming](https://play.google.c
 |22| Core Data | [Photorama](./codes/Photorama) | [:memo:Chapter 22](./notes/ch22-core-data.md) | 2020.05.30. |
 |23| Core Data Relationships | [Photorama](./codes/Photorama) | [:memo:Chapter 23](./notes/ch23-core-data-relationships.md) | 2020.05.31. |
 |24| Accessibility | [Photorama](./codes/Photorama) | [:memo:Chapter 24](./notes/ch24-accessibility.md) | 2020.05.31. |
-|25| Afterword | | | |
+|25| Afterword | . | . | 2020.05.31. |
 
 ## 저작권 안내
 
