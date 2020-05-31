@@ -39,7 +39,7 @@ The Big Nerd Ranch Guide 시리즈 중, "[iOS Programming](https://play.google.c
 |21| Collection Views | [Photorama](./codes/Photorama) | [:memo:Chapter 21](./notes/ch21-collection-views.md) | 2020.05.30. |
 |22| Core Data | [Photorama](./codes/Photorama) | [:memo:Chapter 22](./notes/ch22-core-data.md) | 2020.05.30. |
 |23| Core Data Relationships | [Photorama](./codes/Photorama) | [:memo:Chapter 23](./notes/ch23-core-data-relationships.md) | 2020.05.31. |
-|24| Accessibility | | | |
+|24| Accessibility | [Photorama](./codes/Photorama) | [:memo:Chapter 24](./notes/ch24-accessibility.md) | 2020.05.31. |
 |25| Afterword | | | |
 
 ## 저작권 안내
