@@ -5,8 +5,14 @@
         <attribute name="photoID" optional="YES" attributeType="String"/>
         <attribute name="remoteURL" optional="YES" attributeType="URI"/>
         <attribute name="title" optional="YES" attributeType="String"/>
+        <relationship name="tags" toMany="YES" deletionRule="Nullify" destinationEntity="Tag" inverseName="photos" inverseEntity="Tag"/>
+    </entity>
+    <entity name="Tag" representedClassName="Tag" syncable="YES" codeGenerationType="class">
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <relationship name="photos" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Photo" inverseName="tags" inverseEntity="Photo"/>
     </entity>
     <elements>
-        <element name="Photo" positionX="-63" positionY="-18" width="128" height="103"/>
+        <element name="Photo" positionX="-63" positionY="-18" width="128" height="118"/>
+        <element name="Tag" positionX="-63" positionY="9" width="128" height="73"/>
     </elements>
 </model>
