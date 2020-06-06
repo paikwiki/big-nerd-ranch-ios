@@ -14,7 +14,7 @@
 
 UIWindow
 
-- UIView의 서브클래스로, 윈도우도 하나의 뷰다.
+- UIView의 서브클래스로, 윈도우도 하나의 뷰
 - 윈도우는 애플리케이션이 실행되는 시점에 생성됨
 - 윈도우가 생성된 후에 다른 뷰들이 그 위에 추가됨
 
@@ -58,14 +58,14 @@ UIWindow
       ╰──────────╯ ╰──────────╯ ╰──────────╯ ╰──────────╯ ╰──────────╯
 ```
 
-뷰의 계층 구조를 생성하고 나면 화면에 그려지는 과정은 두 단계로 나눌 수 있음
+뷰의 계층 구조를 생성하고 나면 화면에 그려지는 과정은 두 단계로 나눌 수 있다.
 
 1. 윈도우를 포함해 계층 구조 내의 각각의 뷰는 일종의 비트맵 이미지처럼 생각할 수 있는 "레이어(layer)"로서 스스로 그려짐(레이어는 CALayer의 인스턴스)
 2. 모든 뷰의 레이어는 화면상에 함께 구성됨
 
 ## 3.3. Creating a New Project
 
-Xcode 실습
+정리할 내용 없음
 
 ## 3.4. Views and Frames
 
@@ -102,8 +102,8 @@ CGRect에 전달하는 인자
 포인트(Point)
 
 - 상대값의(relative) 측정 단위
-- 디스플레이가 얼마나 많은 픽셀을 갖고 있느냐에 따라 포인트당 픽셀의 수는 바뀔 수 있다.
-- 사이즈, 위치, 라인과 커브는 화면 해상도의 차이들을 수용하기 위해 항상 포인트로 묘사한다.
+- 디스플레이가 얼마나 많은 픽셀을 갖고 있느냐에 따라 포인트당 픽셀의 수는 바뀔 수 있음
+- 사이즈, 위치, 라인과 커브는 화면 해상도의 차이들을 수용하기 위해 항상 포인트로 묘사
 
 ## 3.5. The Auto Layout System
 
@@ -117,7 +117,7 @@ CGRect에 전달하는 인자
 - Top, Bottom,
 - Left, Right
 - CenterX, CenterY
-- FirstBaseline, LastBaseline: 여러줄의 텍스트 레이블에서는 각각 첫번째 줄이나 마지막 줄을 의미하지만 보통은 둘은 같다.
+- FirstBaseline, LastBaseline: 여러줄의 텍스트 레이블에서는 각각 첫번째 줄이나 마지막 줄을 의미하지만 보통은 둘은 같음
 - Leading, Trailing: 방향에 따라 앞선 쪽이 Leading, 뒤따르는 쪽이 Trailing
 - 일반적으로 frame과 alignment rectangle은 동일함. 하지만 정렬을 위해 다르게 지정하는 것도 가능
 
@@ -129,7 +129,7 @@ CGRect에 전달하는 인자
 가까이 있는 이웃 뷰(Nearest neighbor)
 
 - 특정 방향에서 가장 근접한 이웃 뷰
-- 지정한 방향이 없을 경우 슈퍼뷰가 nearest neighbor가 된다.
+- 지정한 방향이 없을 경우 슈퍼뷰가 nearest neighbor가 됨
 
 오토레이아웃 이슈 지시자(Auto Layout issue indicator)
 
@@ -149,7 +149,7 @@ CGRect에 전달하는 인자
 
 ## 3.7. Bronze Challenge: More Auto Layout Practice
 
-constraints 모두 초기화하고 다시 작성해보기
+constraints 모두 초기화하고 다시 작성해보는 과제
 
 ## 3.8. Silver Challenge: Adding a Gradient Layer
 
@@ -178,7 +178,3 @@ class ViewController: UIViewController {
 
 }
 ```
-
-## 3.9 Gold Challenge: Spacing Out the Labels
-
-## 3.10 For the More Curios: Retina Display
