@@ -44,6 +44,19 @@ The Big Nerd Ranch Guide 시리즈 중, "[iOS Programming](https://play.google.c
 |24| Accessibility | [Photorama](./codes/Photorama) | [:memo:Chapter 24](./notes/ch24-accessibility.md) | 2020.05.31. |
 |25| Afterword | . | . | 2020.05.31. |
 
+## 두번째 실습
+
+아래는 이 책을 완독한 후, 프로젝트 부분을 한 번 더 실습한 일정을 기록한 표입니다.
+
+| No. | Project                   | Date        |
+| --: | ------------------------- | ----------- |
+|   1 | [Quiz](./codes-2nd/Quiz/) | 2020.06.25. |
+|   2 | WorldTrotter              |             |
+|   3 | Buggy                     |             |
+|   4 | LootLogger                |             |
+|   5 | Mandala                   |             |
+|   6 | Photorama                 |             |
+
 ## 저작권 안내
 
 이 저장소는 학습 목적으로 생성한 저장소입니다. 모든 예제 코드와 내용에 대한 저작권은 원저자에게 있습니다.
